@@ -1,0 +1,236 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/Black_overlay</item>
+        <item name="colorAccent">#47525E</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/background_img</item>
+        <!--<item name="android:windowTranslucentStatus">false</item>-->
+        <!--<item name="android:windowTranslucentNavigation">false</item>-->
+
+    </style>
+
+    <style name="mainAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/Black_overlay</item>
+        <item name="colorAccent">#47525E</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/background_img</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <!--<style name="main_textinputlayout" parent="TextAppearance.AppCompat">-->
+    <!--&lt;!&ndash; Hint color and label color in FALSE state &ndash;&gt;-->
+    <!--<item name="android:textColorHighlight">@color/item_pressed_color</item>-->
+    <!--<item name="android:textColorLink">@color/colorPrimaryLighter</item>-->
+    <!--<item name="android:textColorHint">@color/item_pressed_color</item>-->
+    <!--<item name="android:textSize">16sp</item>-->
+    <!--&lt;!&ndash; Label color in TRUE state and bar color FALSE and TRUE State &ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="colorAccent">@color/colorPrimaryLighter</item>-->
+    <!--<item name="colorControlNormal">@color/colorPrimaryLighter</item>&ndash;&gt;-->
+    <!--<item name="colorControlActivated">@color/colorPrimaryLighter</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+
+    <!--</style>-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_img</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="ActionBarCompat">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="ActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/background_img</item>
+    </style>
+
+    <style name="WizardActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="DashboardButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="FooterBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/background_img</item>
+    </style>
+
+
+    <style name="header_button_back" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:layout_height">@dimen/header_button_height</item>
+        <item name="android:layout_width">48dip</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <!-- 页面头部  标题样式 -->
+    <style name="header_text_view" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/header_title_text_size</item>
+        <item name="android:textColor">@color/Black_overlay</item>
+        <item name="android:layout_height">@dimen/header_button_height</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="header_button_operate" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:layout_height">@dimen/header_button_height</item>
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">9dip</item>
+        <item name="android:background">@color/Gray_DarkGray</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="header_button_right" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:layout_height">@dimen/header_button_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:background">@color/Gray_DarkGray</item>
+        <item name="android:text">Close</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="large_button">
+        <!--<item name="colorControlHighlight">#589398</item>
+        <item name="colorButtonNormal">#fa8392</item>-->
+        <!--<item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>-->
+        <item name="android:textColor">@color/White</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/large_button</item>
+    </style>
+
+
+    <style name="large_code_face">
+        <!--<item name="colorControlHighlight">#589398</item>
+        <item name="colorButtonNormal">#fa8392</item>-->
+        <!--<item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>-->
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+    </style>
+
+    <style name="plain_background">
+        <!--<item name="colorControlHighlight">#589398</item>
+        <item name="colorButtonNormal">#fa8392</item>-->
+        <!--<item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>-->
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <!--<item name="android:background">@drawable/plain_background</item>-->
+    </style>
+
+    <style name="edit_auth_style">
+
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">left</item>
+
+
+    </style>
+
+    <style name="auth_h1_text">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">left</item>
+
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="header_linear_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/header_height</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="SplashTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="SplashTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--<style name="RadioButton">-->
+    <!--<item name="android:textColor">@drawable/button_text_color</item>-->
+    <!--<item name="android:minHeight">33dp</item>-->
+    <!--<item name="android:minWidth">70dp</item>-->
+    <!--<item name="android:gravity">center</item>-->
+    <!--<item name="android:button">@null</item>-->
+    <!--<item name="android:paddingLeft">5dp</item>-->
+    <!--<item name="android:paddingRight">5dp</item>-->
+    <!--</style>-->
+
+</resources>

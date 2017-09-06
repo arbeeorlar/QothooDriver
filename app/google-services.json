@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "292408607726",
+    "firebase_url": "https://qothoo-75dfe.firebaseio.com",
+    "project_id": "qothoo-75dfe",
+    "storage_bucket": "qothoo-75dfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292408607726:android:9b1fd0485eba6626",
+        "android_client_info": {
+          "package_name": "com.app.qootho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292408607726-f1fsr47upai2fss4vt81v9m9r1ouk90a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.qootho",
+            "certificate_hash": "b1fe700d789e4017f1634dbcb9ca6eb5b8af3420"
+          }
+        },
+        {
+          "client_id": "292408607726-jc8so56lf456lt9sb90bpisu85sr2o6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAf-kckOFoZHgIf6q2GlWPbqsZwJ2-35g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292408607726-jc8so56lf456lt9sb90bpisu85sr2o6t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292408607726-tmtt8k72h41e33a8h06r65gl4812k6a7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.virtualsoft.ios.qothoo-driver"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292408607726:android:85235ee55fd93143",
+        "android_client_info": {
+          "package_name": "com.app.qothoo.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292408607726-l6kqtk8fbpqba5r5via6nh6dlcmelj0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.qothoo.driver",
+            "certificate_hash": "b1fe700d789e4017f1634dbcb9ca6eb5b8af3420"
+          }
+        },
+        {
+          "client_id": "292408607726-jc8so56lf456lt9sb90bpisu85sr2o6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAf-kckOFoZHgIf6q2GlWPbqsZwJ2-35g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292408607726-jc8so56lf456lt9sb90bpisu85sr2o6t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292408607726-tmtt8k72h41e33a8h06r65gl4812k6a7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.virtualsoft.ios.qothoo-driver"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+include ':app', ':library_new'
+project(':library_new').projectDir = new File('library')
